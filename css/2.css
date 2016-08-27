@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    /* This is used to reset any browser-default margins */
+    height: 100vh;
+    /* This is needed to overcome a Chrome bug. */
+    width: 100vw;
+    /* As above. */
+}
+.full-Ele {
+    height: 100vh;
+    width: 100%;
+    background-color: #3C9F9D;
+    z-index: 1;
+}
+#topContainer {
+    position: relative;
+}
+#div1{
+  background: url("../imgs/6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+}
+#div2{
+  position: absolute;
+  background: url("../imgs/112.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 50vw;
+  bottom: 0px;
+  right: 0px;
+}
+#div3{
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  top:0px;
+  right:0px;
+  background: url("../imgs/1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+#div4{
+  position: absolute;
+  height: 35vh;
+  width: 35vw;
+  background-color: white;
+  bottom: 0px;
+  left:0px;
+}
+#p4{
+  position: absolute;
+  bottom: 0px;
+  font-size: 5.5vw;
+  font-family: "Courier New", Courier, monospace;
+  color:red;
+}
+#mainBttn {
+    display: block;
+    position: absolute;
+    margin-top: 37vh;
+    margin-left: 41.75vw;
+    border: 1px solid black;
+    background: url("../imgs/3.jpg");
+    border: 1px solid white;
+    border-radius: 1.5%;
+    width: 17vw;
+    height: 25vh;
+    text-align: center;
+}
+#mainP{
+  font-size: 1em;
+  text-align: center;
+  margin: auto;
+  margin-top: 11.5vh;
+  color: grey;
+  transition: color 2s, width 2s, height 3s, font-size 2s,margin-top 3s;
+}
+#mainBttn:hover{
+  cursor: pointer;
+}
+#mainBttn:hover p{
+  margin-top: 9vh;
+  color:red;
+  font-size: 2em;
+}
+@media screen and (max-width: 480px) {
+    #topContainer {
+        background-color: lightgreen;
+    }
+    #mainBttn{
+      width: 35vw;
+      margin-left: 32.5vw;
+    }
+}
