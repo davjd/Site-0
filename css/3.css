@@ -1,18 +1,17 @@
 body {
-    height: 100vh;
-    width: 100vw;
     position: relative;
 }
 #div1 {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #173f25;
+    background-color: #00070d;
 }
 #img1 {
     position: absolute;
     height: 100%;
     width: 100%;
+    display: none;
 
 }
 #soundPlayer {
@@ -27,7 +26,7 @@ body {
     margin-top: 7.5vh;
 }
 #p1 {
-    font-size: 200%;
+    font-size: 180%;
     position: absolute;
     width: 70vw;
     height: 70vh;
